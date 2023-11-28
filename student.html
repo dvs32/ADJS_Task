@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+
+    <script>
+
+        class Student{
+            constructor(institutename,studentname , studentclass, studentage , studentlocation){
+                this.institutename = institutename
+                this.studentname = studentname
+                this.studentclass = studentclass
+                this.studentage = studentage
+                this.studentlocation = studentlocation
+                
+            }
+           
+        }
+
+        let divyesh = new Student("divyesh", "12th","17" ,"junagadh")
+        console.log(divyesh);
+       
+        let ravi = new Student("ravi", "10","15" ,"bhayavadar")
+        console.log(ravi);
+
+        let karan = new Student("karan", "9","14" ,"keshod")
+        console.log(karan);
+
+
+        class Institute extends Student{
+            constructor(institutename){
+                this.institutename = institutename
+            }
+        }
+        let topsstudent1 = new Student("Tops" ,"divyesh", "12th","17" ,"junagadh")
+        console.log(topsstudent1);
+        
+        let topsstudent2 = new Student("Tops" ,"ravi", "12th","17" ,"junagadh")
+        console.log(topsstudent2);
+        
+        let topsstudent3 = new Student("Tops" ,"karan", "12th","17" ,"junagadh")
+        console.log(topsstudent3);
+    </script>
+    
+</body>
+</html>

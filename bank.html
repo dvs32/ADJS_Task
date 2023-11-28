@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+    <script>
+
+        class Bank{
+            constructor(bankname, bankbranch, banklocation){
+                this.bankname= bankname
+                this.bankbranch= bankbranch
+                this.banklocation= banklocation
+            }
+        }
+        let bankofbaroda = new Bank("Bank of baroda", "Azad chock main branch","junagadh")
+        console.log(bankofbaroda);
+        
+        let hdfcbank = new Bank("HDFC", "Motibaug main branch","Surat")
+        console.log(hdfcbank);
+        
+        let Axisbank = new Bank("Axis Bank", "Sardar chock main branch","Gandhinagar")
+        console.log(Axisbank);
+    </script>
+</body>
+</html>
